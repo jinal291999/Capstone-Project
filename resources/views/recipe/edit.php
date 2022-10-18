@@ -70,7 +70,7 @@
             </div>
 
             <div class="w3-margin-bottom">
-                <label for="url" style="color: white;">Image URL:</label><br>
+                <label for="url" style="color: white;" >Image URL:</label><br>
                 <input type="text" name="url" id="url" value="<?= old('url', $recipe->url) ?>">
 
                 <?php if ($errors->first('url')) : ?>
@@ -97,7 +97,18 @@
         <a href="/recipe/list" style="margin-left: 557px;">Back to recipe List</a>
 
     </section>
+    <footer class="text-center text-white" style="background-color: #4a3c3f; height:114px; margin-top:120px ">
+        <!-- Grid container -->
+        <div class="container p-4"></div>
+        <!-- Grid container -->
 
+        <!-- Copyright -->
+        <div class="text-center p-3" style="color: white; margin-top:20px;">
+            © 2022 Jinal Patel
+
+        </div>
+        <!-- Copyright -->
+    </footer>
 </body>
 
 </html>

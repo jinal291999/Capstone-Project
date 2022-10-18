@@ -14,34 +14,46 @@
     </head>
     <body>
 
+    <header class="header">
+   
 
-        <header class="w3-padding">
+        <nav class="navbar navbar-inverse" style="background-color: #4a3c3f;">
+            <div class="container-fluid">
+                <div class="container">
 
-            <h1 class="w3-text-red">Healthy Recipes</h1>
+                    <h2 class="navbar-brand">
+                        <img class="d-block" src="../././../images/Logo.png" height="60px" width="60px">
+                    </h2>
+                    <nav class="navbar ">
 
-            <?php if(Auth::check()): ?>
+                        <ul class="navbar-nav ml-auto headul">
+                        <?php if(Auth::check()): ?>
                 You are logged in as <?= auth()->user()->first ?> <?= auth()->user()->last ?> | 
                 <a href="/console/logout">Log Out</a> | 
                 <a href="/console/dashboard">Dashboard</a> | 
                 <a href="/">Website Home Page</a>
             <?php else: ?>
-                <a href="/">Return to Recipes</a>
+                <a href="/" style="color:white;margin-left: 988px;">Return to Recipes</a>
             <?php endif; ?>
+                           
+                        </ul>
+                    </nav>
+    </header>
 
-        </header>
+    
 
         <hr>
 
         <section class="w3-padding">
 
-            <h2>Add User</h2>
+            <h2 style="margin-left: 558px;">Add User</h2>
 
-            <form method="post" action="/user/add" novalidate class="w3-margin-bottom">
+            <form method="post" action="/user/add" novalidate class="w3-margin-bottom"  style=" margin-left: 559px; background: #4a3c3f; width: 440px; height: 331px;">
 
                 <?= csrf_field() ?>
 
-                <div class="w3-margin-bottom">
-                    <label for="first">First Name:</label>
+                <div class="w3-margin-bottom"style="margin-left: 118px;">
+                    <label for="first" style="color: white;">First Name:</label><br>
                     <input type="text" name="first" id="first" value="<?= old('first') ?>" required>
                     
                     <?php if($errors->first('first')): ?>
@@ -50,8 +62,8 @@
                     <?php endif; ?>
                 </div>
 
-                <div class="w3-margin-bottom">
-                    <label for="last">Last Name:</label>
+                <div class="w3-margin-bottom" style="margin-left: 118px;">
+                    <label for="last" style="color: white;">Last Name:</label><br>
                     <input type="text" name="last" id="last" value="<?= old('last') ?>" required>
 
                     <?php if($errors->first('last')): ?>
@@ -60,8 +72,8 @@
                     <?php endif; ?>
                 </div>
 
-                <div class="w3-margin-bottom">
-                    <label for="email">Email:</label>
+                <div class="w3-margin-bottom" style="margin-left: 118px;">
+                    <label for="email" style="color: white;">Email:</label><br>
                     <input type="email" name="email" id="email" value="<?= old('email') ?>" required>
 
                     <?php if($errors->first('email')): ?>
@@ -70,8 +82,8 @@
                     <?php endif; ?>
                 </div>
 
-                <div class="w3-margin-bottom">
-                    <label for="password">Password:</label>
+                <div class="w3-margin-bottom"style="margin-left: 118px;">
+                    <label for="password" style="color: white;">Password:</label><br>
                     <input type="password" name="password" id="password">
 
                     <?php if($errors->first('password')): ?>
@@ -80,13 +92,24 @@
                     <?php endif; ?>
                 </div>
 
-                <button type="submit" class="w3-button w3-green">Add User</button>
+                <button type="submit" class="w3-button w3-green" style="margin-left:118px;">Add User</button>
 
             </form>
 
-            <a href="/console/users/list">Back to User List</a>
+            <a href="/console/users/list" style="margin-left: 556px;">Back to User List</a>
 
         </section>
+        <footer class="text-center text-white" style="background-color: #4a3c3f; height:114px; margin-top:120px ">
+        <!-- Grid container -->
+        <div class="container p-4"></div>
+        <!-- Grid container -->
 
+        <!-- Copyright -->
+        <div class="text-center p-3" style="color: white; margin-top:20px;">
+            © 2022 Jinal Patel
+
+        </div>
+        <!-- Copyright -->
+    </footer>
     </body>
 </html>

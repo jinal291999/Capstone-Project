@@ -87,7 +87,18 @@
 
 
     </section>
+    <footer class="text-center text-white" style="background-color: #4a3c3f; height:114px; margin-top:120px ">
+        <!-- Grid container -->
+        <div class="container p-4"></div>
+        <!-- Grid container -->
 
+        <!-- Copyright -->
+        <div class="text-center p-3" style="color: white; margin-top:20px;">
+            © 2022 Jinal Patel
+
+        </div>
+        <!-- Copyright -->
+    </footer>
 </body>
 
 </html>
