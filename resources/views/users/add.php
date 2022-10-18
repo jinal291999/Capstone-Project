@@ -96,7 +96,7 @@
 
             </form>
 
-            <a href="/console/users/list" style="margin-left: 556px;">Back to User List</a>
+            <a href="/console/login" style="margin-left: 556px;">Back to Login</a>
 
         </section>
         <footer class="text-center text-white" style="background-color: #4a3c3f; height:114px; margin-top:120px ">

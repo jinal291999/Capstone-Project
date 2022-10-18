@@ -73,9 +73,9 @@
         <div class="recipelist">
             <div class="reci">
             <?php foreach ($recipes as $rec) : ?>
-                <img src="<?= $rec->url ?>" width="200"><br>
+                <img src="<?= $rec->url ?>" width="300" height="300"><br>
               <h3>  <?= $rec->title ?></h3><br>
-             <p class="content"><b>Recipe: </b><?= $rec->content ?></p>
+             <p class="content" style="width:1343px;"><b>Recipe: </b><?= $rec->content ?></p>
             <button> <a href="/recipe/edit/<?= $rec->id ?>">Edit</a></button>
             <button><a href="/recipe/delete/<?= $rec->id ?>">Delete</a></button>
             </div>
