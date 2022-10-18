@@ -1,0 +1,62 @@
+body{
+  background-color: rgb(248, 232, 214);
+}
+.carousel-inner img {
+  width: 100%;
+ 
+}
+
+.benefits{
+  margin-left: 20px;
+
+}
+nav ul li a {
+ 
+  text-decoration: none;
+
+}
+.log{
+  color: white;
+  margin-left: 837px;
+}
+.item{
+  margin-left: 940px;
+}
+.footer{
+  background-color: #4a3c3f;
+  height: 100px;
+}
+/* Add page */
+.w3-margin-bottom{
+  margin-left: 120px;
+}
+/* .recipelist{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+} */
+.content{
+  width: 300px;
+}
+.recipelist{
+  margin-left: 20px;
+}
+
+.headli{
+  display: flex;
+  margin-left: 1001px;
+  margin-top: 14px;
+  margin-bottom: 10px;
+}
+.headli li{
+  text-decoration: none;
+ padding-right: 13px;
+ padding-bottom: 30px;
+}
+ul{
+  list-style-type: none;
+}
+.headul{
+  margin-left: 149px;
+  font-size: 1.2rem;
+}
