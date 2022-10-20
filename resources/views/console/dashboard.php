@@ -83,36 +83,36 @@
           <!-- <img src="{{asset('images/img2.jpg')}}"> -->
           <img class="d-block w-100" src="../././../images/imgg.jpg" alt="First slide" width="1100px" height="400px">
           <div class="carousel-caption">
-            <h3>Health is Wealth</h3>
-            <p>“Healthy eating is a way of life, so it's important to establish routines that are simple, realistically, and ultimately livable.” - Horace</p>
+            <h3 style="text-shadow: 2px 2px 5px black;">Health is Wealth</h3>
+            <p style="text-shadow: 2px 2px 5px black;" >“Healthy eating is a way of life, so it's important to establish routines that are simple, realistically, and ultimately livable.” - Horace</p>
           </div>
         </div>
         <div class="carousel-item">
           <img class="d-block w-100" src="../././../images/Yoga4.jpg" alt="Second slide" width="1100px" height="400px">
           <div class="carousel-caption">
-            <h3>Health is Wealth</h3>
-            <p>"Yoga is the journey of self the self, through the self, to the self"-The Bhagvad Gita</p>
+            <h3 style="text-shadow: 2px 2px 5px black;">Health is Wealth</h3>
+            <p style="text-shadow: 2px 2px 5px black;">"Yoga is the journey of self the self, through the self, to the self"-The Bhagvad Gita</p>
           </div>
         </div>
         <div class="carousel-item">
           <img class="d-block w-100" src="../././../images/img4.jpg" alt="Third slide" width="1100px" height="400px">
           <div class="carousel-caption">
-            <h3>Health is Wealth</h3>
-            <p> “Take care of your body. It's the only place you have to live.” - Jim Rohn</p>
+            <h3 style="text-shadow: 2px 2px 5px black;">Health is Wealth</h3>
+            <p style="text-shadow: 2px 2px 5px black;"> “Take care of your body. It's the only place you have to live.” - Jim Rohn</p>
           </div>
         </div>
         <div class="carousel-item">
           <img class="d-block w-100" src="../././../images/img6.jpg" alt="Fifth slide" width="1100px" height="400px">
           <div class="carousel-caption">
-            <h3>Health is Wealth</h3>
-            <p>“Your diet is a bank account. Good food choices are good investments.” - Bethenny Frankel</p>
+            <h3 style="text-shadow: 2px 2px 5px black;">Health is Wealth</h3>
+            <p style="text-shadow: 2px 2px 5px black;">“Your diet is a bank account. Good food choices are good investments.” - Bethenny Frankel</p>
           </div>
         </div>
         <div class="carousel-item">
           <img class="d-block w-100" src="../././../images/Yoga4.jpg" alt="Sixth slide" width="1100px" height="400px">
           <div class="carousel-caption">
-            <h3>Health is Wealth</h3>
-            <p>Meditation is the mysterious method of self-restoration...</p>
+            <h3 style="text-shadow: 2px 2px 5px black;">Health is Wealth</h3>
+            <p style="text-shadow: 2px 2px 5px black;">Meditation is the mysterious method of self-restoration...</p>
           </div>
         </div>
 

@@ -33,8 +33,45 @@
   <div class="container">
       <br>
       <h1 class="text-center">
-          Youtube Advanced Search App
+          Yoga videos
       </h1>
+      <div style="margin-left: -106px;">
+      <button id="searchButton" type="button" class="btn btn-dark">Search</button>
+      <select id="searchtext" style="width: 300px;">
+    <option value="Prathna yoga">Prathna</option>
+    <option>Omkar</option>
+    <option>Brastika</option>
+    <option>Kapalbhati</option>
+    <option>Bahya Pranayam</option>
+    <option>Agnisar Kriya</option>
+    <option>Ujjai Prananyam</option>
+    <option>Remove Stiff From Body</option>
+    <option>Chakrasan</option>
+    <option>Bhujangasana</option>
+    <option>Setu Bandha Sarvangasana</option>
+    <option>Adho Mukha Svanasana</option>
+    <option>Tadasana</option>
+    <option>Vayu Nishkasana</option>
+    <option>Trikonasana</option>
+    <option>Sarvangasana</option>
+    <option>Sukhasana</option>
+    <option>Dhanurasana</option>
+    <option>Sirsasana</option>
+    <option>Padmasana</option>
+    <option>Utthita Parsvakonasana</option>
+    <option>Natarajasana</option>
+    <option>Halasana</option>
+    <option>Vajrasana</option>
+    <option>Virabhadrasana</option>
+    <option>Surya Namaskar</option>
+    <option>Ustrasana</option>
+    <option>Siddhasana</option>
+    <option>Tadasana</option>
+    <option>Paschimottanasana</option>
+    <option>Shavasana</option>
+
+</select>
+      </div>
       <br>
   </div>
   <div id="videoList" style="display: grid;
